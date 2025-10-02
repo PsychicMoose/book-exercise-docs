@@ -21,7 +21,7 @@ Under the hood, the CDA uses config flags to enable or disable managers, pushes 
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/PsychicMoose/cda-python-components/tree/labmodule03
 
 ### UML Design Diagram(s)
 
