@@ -21,7 +21,7 @@ Together, these implementations complete the foundation for the CDA’s internal
 ### Code Repository and Branch
 
 URL:  
-[https://github.com/programming-the-iot/python-components/tree/alpha005](https://github.com/programming-the-iot/python-components/tree/alpha005)
+https://github.com/PsychicMoose/cda-python-components/tree/labmodule05
 
 ---
 
