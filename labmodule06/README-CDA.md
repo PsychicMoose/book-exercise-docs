@@ -108,7 +108,7 @@ classDiagram
     MqttClientConnector --> IDataMessageListener : notifies
     SensorAdapterManager --> IDataMessageListener : publishes to
     SystemPerformanceManager --> IDataMessageListener : publishes to
-    ```
+```
 
 
 ### Unit Tests Executed
