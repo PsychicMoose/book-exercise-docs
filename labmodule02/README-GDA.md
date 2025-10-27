@@ -20,7 +20,7 @@ The implementation uses a scheduled executor service to periodically run monitor
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: https://github.com/programming-the-iot/java-components/tree/chapter02
+URL: https://github.com/PsychicMoose/gda-java-components/tree/labmodule02
 
 ### UML Design Diagram(s)
 
