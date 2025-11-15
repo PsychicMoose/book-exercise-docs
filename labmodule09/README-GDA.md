@@ -12,7 +12,7 @@ The implementation leverages the Eclipse Californium 3.x framework to handle the
 
 ### Code Repository and Branch
 
-URL: https://github.com/[your-username]/gda-java-components/tree/[your-branch]
+URL: https://github.com/PsychicMoose/gda-java-components/tree/labmodule09
 
 ### UML Design Diagram(s)
 
