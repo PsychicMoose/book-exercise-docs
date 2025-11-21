@@ -145,4 +145,81 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - MqttClientPerformanceTest (testPublishQoS0, testPublishQoS1, testPublishQoS2)
 - DeviceDataManagerSimpleCdaActuationTest (testSendActuationEventsToCda)
 
+
+
+
+### performance tests:
+=================================================
+GDA MQTT Performance Test Results
+Timestamp: 2025-11-20T23:33:16.612594800
+Max Test Runs: 10000
+TLS Enabled: False
+Port: 1883
+=================================================
+
+QoS 0 Test:
+  Messages: 10000
+  Payload size: 253 bytes
+  Total time: 2750 ms
+  Avg per message: 0.275 ms
+  Messages per second: 3636.4
+
+QoS 1 Test:
+  Messages: 10000
+  Payload size: 253 bytes
+  Total time: 3293 ms
+  Avg per message: 0.329 ms
+  Messages per second: 3036.7
+
+QoS 2 Test:
+  Messages: 10000
+  Payload size: 253 bytes
+  Total time: 5681 ms
+  Avg per message: 0.568 ms
+  Messages per second: 1760.3
+
+Connect/Disconnect Test:
+  Time: 307 ms
+
+=================================================
+Test completed at: 2025-11-20T23:33:31.007326281
+=================================================
+
+
+=================================================
+GDA MQTT Performance Test Results
+Timestamp: 2025-11-20T23:38:33.248474231
+Max Test Runs: 10000
+TLS Enabled: true
+Port: 8883
+=================================================
+
+QoS 0 Test:
+  Messages: 10000
+  Payload size: 253 bytes
+  Total time: 2638 ms
+  Avg per message: 0.264 ms
+  Messages per second: 3790.8
+
+QoS 1 Test:
+  Messages: 10000
+  Payload size: 253 bytes
+  Total time: 3545 ms
+  Avg per message: 0.355 ms
+  Messages per second: 2820.9
+
+QoS 2 Test:
+  Messages: 10000
+  Payload size: 253 bytes
+  Total time: 5755 ms
+  Avg per message: 0.576 ms
+  Messages per second: 1737.6
+
+Connect/Disconnect Test:
+  Time: 320 ms
+
+=================================================
+Test completed at: 2025-11-20T23:38:49.472898994
+=================================================
+
 EOF.
