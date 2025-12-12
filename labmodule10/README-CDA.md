@@ -154,4 +154,35 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - DeviceDataManagerCallbackTest (testActuatorDataCallback)
 - DeviceDataManagerIntegrationTest (testDeviceDataMgrTimedIntegration)
 
+
+
+## CDA MQTT Client Performance Test Results
+
+### Test Configuration
+- Test Date: 2025-11-18
+- Messages per test: 10,000
+- Payload size: 264 bytes
+
+### Non-TLS Results (Port 1883)
+- Connect/Disconnect: 19.69 ms
+- QoS 0: 4,382.82 ms (0.438 ms/msg)
+- QoS 1: 7,559.00 ms (0.756 ms/msg) - **72.5% slower than QoS 0**
+- QoS 2: 11,728.49 ms (1.173 ms/msg) - **167.6% slower than QoS 0**
+
+### TLS Results (Port 8883)
+- Connect/Disconnect: 1,075.26 ms
+- QoS 0: 5,131.37 ms (0.513 ms/msg)
+- QoS 1: 8,058.05 ms (0.806 ms/msg) - **57.0% slower than QoS 0**
+- QoS 2: 13,584.54 ms (1.358 ms/msg) - **164.7% slower than QoS 0**
+
+### Performance Analysis
+**Which ran fastest?** QoS 0 without TLS (4,382.82 ms)
+**Which ran slowest?** QoS 2 with TLS (13,584.54 ms)
+
+**TLS Overhead:**
+- Connect/Disconnect: 5,362% slower with TLS
+- QoS 0: 17.1% slower with TLS
+- QoS 1: 6.6% slower with TLS
+- QoS 2: 15.8% slower with TLS
+
 EOF.

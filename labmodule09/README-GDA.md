@@ -16,9 +16,6 @@ URL: https://github.com/PsychicMoose/gda-java-components/tree/labmodule09
 
 ### UML Design Diagram(s)
 
-
-#### CoAP Client Architecture
-
 ```mermaid
 classDiagram
     class IRequestResponseClient {
